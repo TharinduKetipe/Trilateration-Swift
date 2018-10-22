@@ -10,7 +10,6 @@ import UIKit
 
 class Utilities: NSObject {
     
-    
     static func normValue(point: Point) -> Double {
         var norm:Double?
         norm = pow(pow(point.x!, 2) + pow(point.y!, 2) , 0.5)
@@ -51,4 +50,3 @@ class Utilities: NSObject {
     }
     
 }
-
